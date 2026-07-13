@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EduGenie Learning Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>EduGenie Learning Assistant 🧑‍🏫</h1>
+
+        <form method="POST">
+            <label for="query_type">Choose Feature:</label>
+            <select name="query_type" id="query_type">
+                <option value="qa" {% if query_type == "qa" %}selected{% endif %}>Q&A</option>
+                <option value="explanation" {% if query_type == "explanation" %}selected{% endif %}>Explanation</option>
+                <option value="quiz" {% if query_type == "quiz" %}selected{% endif %}>Quiz</option>
+                <option value="summary" {% if query_type == "summary" %}selected{% endif %}>Summary</option>
+                <option value="recommendation" {% if query_type == "recommendation" %}selected{% endif %}>Recommendation</option>
+            </select>
+
+            <label for="query">Enter your question/topic:</label>
+            <textarea name="query" id="query" rows="5" placeholder="Enter your question here...">{{ query }}</textarea>
+
+            <button type="submit">Generate</button>
+        </form>
+
+        {% if response %}
+        <div class="response-section">
+            <h2>Response</h2>
+            <div class="response-box">{{ response }}</div>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
