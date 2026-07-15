@@ -1,8 +1,8 @@
-# 🎓 EduGenie
+# 🎓 EduGenie – Google Gemini Powered Learning Assistant
 
-An AI-powered educational assistant that helps students learn efficiently using Generative AI. EduGenie provides intelligent Question Answering, Concept Explanation, Quiz Generation, Notes Summarization, and Personalized Learning Recommendations through a clean web interface.
+EduGenie is an AI-powered educational web application that helps students learn more effectively using Generative AI. It provides Question Answering, Concept Explanation, Quiz Generation, Notes Summarization, and Personalized Learning Recommendations through an easy-to-use web interface.
 
-Built using **FastAPI, HTML, CSS, JavaScript, Jinja2, Google Gemini 2.5 Flash, and LaMini-Flan-T5.**
+Built using **FastAPI, HTML, CSS, JavaScript, Jinja2, Google Gemini 3.5 Flash, and LaMini-Flan-T5.**
 
 ---
 
@@ -15,7 +15,7 @@ Built using **FastAPI, HTML, CSS, JavaScript, Jinja2, Google Gemini 2.5 Flash, a
 - 🎯 Personalized Learning Recommendations
 - ⚡ FastAPI Backend
 - 🎨 Responsive Web Interface
-- 🤖 Google Gemini 2.5 Flash Integration
+- 🤖 Google Gemini 3.5 Flash Integration
 - 📚 LaMini-Flan-T5 for Concept Explanation
 - 🧪 Individual Module Testing
 
@@ -36,7 +36,7 @@ Built using **FastAPI, HTML, CSS, JavaScript, Jinja2, Google Gemini 2.5 Flash, a
         ┌──────────┴──────────┐
         │                     │
         ▼                     ▼
-Google Gemini 2.5 Flash    LaMini-Flan-T5
+Google Gemini 3.5 Flash    LaMini-Flan-T5
 (Q&A, Quiz, Summary,      (Explanation)
 Recommendations)
         │                     │
@@ -93,7 +93,7 @@ EduGenie/
 | CSS3 | Styling |
 | JavaScript | Client-side Interaction |
 | Jinja2 | Template Rendering |
-| Google Gemini 2.5 Flash | Q&A, Quiz, Summary, Recommendations |
+| Google Gemini 3.5 Flash | Q&A, Quiz, Summary, Recommendations |
 | LaMini-Flan-T5 | Concept Explanation |
 | Transformers | NLP Model Loading |
 | Python | Backend Development |
@@ -107,7 +107,7 @@ EduGenie/
 ## 1. Clone Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_LINK
+git clone https://github.com/chaitanyasiri561/EduGenie-Learning-Assistant
 ```
 
 ```bash
@@ -184,41 +184,17 @@ python test_recommendation.py
 
 ---
 
-# 📷 Application Screenshots
+# 📸 Application Modules
 
-## 🏠 Home Page
+✔ Question Answering
 
-![Home Page](images/home.png)
+✔ Concept Explanation
 
----
+✔ Quiz Generation
 
-## ❓ Question Answering
+✔ Notes Summarization
 
-![Question Answering](images/question_answer.png)
-
----
-
-## 📖 Concept Explanation
-
-![Explanation](images/explanation.png)
-
----
-
-## 📝 Quiz Generation
-
-![Quiz](images/quiz.png)
-
----
-
-## 📄 Notes Summarization
-
-![Summary](images/summary.png)
-
----
-
-## 🎯 Learning Recommendations
-
-![Recommendation](images/recommendation.png)
+✔ Personalized Learning Recommendations
 
 ---
 
@@ -246,10 +222,10 @@ SRM University AP
 Google Cloud GenAI Internship Project
 
 GitHub:
-https://github.com/YOUR_USERNAME
+https://github.com/chaitanyasiri561/EduGenie-Learning-Assistant
 
 ---
 
 # 📜 License
 
-This project was developed as part of the Google Cloud Generative AI Internship for educational purposes.
+This project was developed as part of the "Google Cloud Generative AI" Internship for educational purposes.
